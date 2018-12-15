@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+  padding: 3px;
+}
+
+.page-wrapper {
+  height: 100%;
+}
+
+main {
+  border: 1px solid #333;
+  height: calc(100% - 60px);
+}
+
+.navbar {
+  background-color: #222;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar a {
+  min-width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #222;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+}
+
+.navbar a:hover {
+  background-color: #777;
+}
+
+.brand {
+  font-size: 1.5em;
+}
+
+.drop-down {
+  position: relative;
+}
+
+#user {
+  margin-left: auto;
+}
+
+ul.menu {
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ul.menu > li.drop-down > ul.drop-content {
+  display: none;
+  height: 0px;
+}
+
+ul.menu > li.drop-down > ul.drop-content ul.drop-content {
+  display: none;
+  height: 0px;
+}
+
+ul.menu > li.drop-down:hover > ul.drop-content {
+  display: block;
+}
+
+ul.menu > li.drop-down li.drop-down:hover > ul.drop-content {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+/*# sourceMappingURL=style.css.map */
